@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:login_bloc/src/blocs/provider.dart';
 import 'package:login_bloc/src/screens/home_page.dart';
 import 'package:login_bloc/src/screens/login_page.dart';
+import 'package:login_bloc/src/screens/news_page.dart';
 
 class LoginBlocApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -22,7 +23,7 @@ class LoginBlocApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: LoginPage(),
+        home: NewsListPage(),
       ),
     );
   }
